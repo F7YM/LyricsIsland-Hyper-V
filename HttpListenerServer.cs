@@ -19,7 +19,7 @@ namespace LyricsComponent
         public string Lyrics { get; private set; } = string.Empty;
         public string ExtraLyrics { get; private set; } = string.Empty;
         
-        public HttpListenerServer(string url = "http://127.0.0.1:50063/")
+        public HttpListenerServer(string url = "http://127.0.0.1:27083/")
         {
             _url = url;
             _listener = new HttpListener();
